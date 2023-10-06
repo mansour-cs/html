@@ -1,205 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="cssimage.css">
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cssimage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
 
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">PERSONAL<span>blog</span></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid d-flex">
+            <a class="navbar-brand" href="#">PERSONAL<span>blog</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse position-relative" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 start-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#About">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#project">project</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">contact</a>
-                  </li>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
                 </ul>
-              </div>
             </div>
-          </nav>
+        </div>
+    </nav>
 
-          <br>
-          <br>
-          
-        <section>
-            <div class="container text-center ">
-                <div class="home row">
-                    <div class="col">
-                        <h3>نقوم بتطوير مواقع الويب</h3>
-                        <h1><span> The Giants</span></h1> 
-                        <h3>VIRTUAL UNIVERSITY<span>TEAM</span></h3>
-                     </div>
-                     <div class="col">
-                        <br>
-                        <div>
-                            <img class="home" src="rr.jpg" alt="" style=" height: 200px;width: 200px;">
-                        </div>
+    <br>
+    <br>
+    
+    <section>
+        <div class="container text-center">
+            <div class="home row">
+                <div class="col-8">
+                    <h3>نقوم بتطوير مواقع الويب</h3>
+                    <h1><span> The Giants</span></h1> 
+                    <h3>VIRTUAL UNIVERSITY<span>TEAM</span></h3>
+                </div>
+                <div class="col-4">
+                    <br>
+                    <div>
+                        <img class="home img-fluid" src="rr.jpg" alt="" style="height: 100%; width: 100%;">
                     </div>
                 </div>
             </div>
-        </section>
-        <!--skills-->
-        <section id="About">
-            <div class="container ">
-                <div class="heading">
-                    <h2>A<span class="text">Bout</span></h2>
-                    <hr>
-                </div>
-                <div class="row">
-                    <div class="col iteam">
-                        <div >
-                            <img  src="a.jpg" alt="mans">
-                            <h4>ENG.Mansour</h4>
-                            <p>Graduate of the Applied College, specializing in computer technology</p>
-                            <a href="CV MANSOUR/CV MANSOUR.HTML">
-                                <button type="submit" class="btn-primary">Read More</button>
-                                </a>
-                        </div>
-                    </div>
-                    <div class="col iteam">
-                        <div>
-                            <img src="d.png" alt="mar">
-                            <h4>Mariam</h4>
-                            <p>Mathematics graduat specialization Application programming</p>
-                              
-                            <a href="cvm/cvm.html">
-                                <button type="submit" class="btn-primary">Read More</button>
-                                </a>
-                        </div>
+        </div>
+    </section>
+
+    <!--skills-->
+    <section id="About">
+        <div class="container">
+            <div class="heading text-center">
+                <h2>A<span class="text">Bout</span></h2>
+                <hr>
+            </div>
+            <div class="cards-about row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="iteam text-center">
+                        <img src="a.jpg" alt="mans" class="img-fluid">
+                        <h4>ENG.Mansour</h4>
+                        <p>Graduate of the Applied College, specializing in computer technology</p>
+                        <a href="cvm/cvm.html" class="btn btn-primary">Read More</a>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col iteam">
-                        <img src="c.png" alt="mohammad">
-                        <h4>Mohammad</h4>
-                        <p>Control & Automation Engineer</p>
-                        <a href="./mohammad_CV/index.html">
-                            <button type="submit" class="btn-primary">Read More</button>
-                            </a>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="iteam text-center">
+                        <img src="d.png" alt="mans" class="img-fluid">
+                        <h4>Mariam</h4>
+                        <p>Mathematics graduat specialization Application programming</p>
+                        <a href="CV MANSOUR/CV MANSOUR.HTML" class="btn btn-primary">Read More</a>
                     </div>
-                    <div class="col iteam">
-                        <img src="55.png" alt="Anas Alnajjar">
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="iteam text-center">
+                        <img src="c.png" alt="mans" class="img-fluid">
                         <h4>Anas Alnajjar</h4>
                         <p>Master of Economy and Project Management</p>
-                        <a href="CV/CV.html">
-                            <button type="submit" class="btn-primary">Read More</button>
-                            </a>
-
+                        <a href="cvm/cvm.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="iteam text-center">
+                        <img src="55.png" alt="mans" class="img-fluid">
+                        <h4>Mohammed</h4>
+                        <p>Graduate of the Applied College, specializing in computer technology</p>
+                        <a href="./mohammad_CV/index.html" class="btn btn-primary">Read More</a>
                     </div>
                 </div>
             </div>
-            <!-- -->
-        </section>
+        </div>
+    </section>
 
-        <section id="project">
-          
-
-            <div class="containere">
-                <!-- Slider main container -->
-                <div class="swiper">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide"><img src="1.png" alt="">
-                            <div class="tex">
-                            <a href="https://github.com/mansour-cs"> <h3>PERSONAL BLOG SITE</h3></a>
-                               
-                            </div>
+    <section id="project">
+        <div class="container">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="1.png" alt="" class="img-fluid">
+                        <div class="tex">
+                            <a href="https://github.com/mansour-cs"><h3>PERSONAL BLOG SITE</h3></a>
                         </div>
-                        <div class="swiper-slide"><img src="2.png" alt="">
-                          <div class="tex">
-                            <h3></h3>
-                            <a href="https://github.com/mansour-cs"></a>
-                        </div>
-                        </div>
-                        <div class="swiper-slide"><img src="4.png" alt=""></div>
-                        
                     </div>
-
-                    <!-- If we need pagination -->
-                    <div class="swiper-pagination"></div>
-
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-
+                    <div class="swiper-slide"><img src="2.png" alt="" class="img-fluid">
+                        <div class="tex">
+                            <a href="https://github.com/mansour-cs"><h3>PERSONAL BLOG SITE</h3></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"><img src="3.png" alt="" class="img-fluid">
+                        <div class="tex">
+                            <a href="https://github.com/mansour-cs"><h3>PERSONAL BLOG SITE</h3></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"><img src="4.png" alt="" class="img-fluid">
+                        <div class="tex">
+                            <a href="https://github.com/mansour-cs"><h3>PERSONAL BLOG SITE</h3></a>
+                        </div>
+                    </div>
                 </div>
-               
-             
-
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
-            <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        </div>
+    </section>
 
-            <script>
-                const swiper = new Swiper('.swiper', {
-                    // Optional parameters
-
-                    autoplay: {
-                        delay: 5000,
-                        disableoninteraction: false
-                    },
-                    loop: true,
-
-                    // If we need pagination
-                    pagination: {
-                        el: '.swiper-pagination',
-                        clickable: true
-                    },
-
-                    // Navigation arrows
-                    navigation: {
-                        nextEl: '.swiper-button-next',
-                        prevEl: '.swiper-button-prev'
-                    }
-              } );
-            </script>
-        </section>
-
-        <section id="contact">
-            <div class="container">
-                <h2>contact</h2>
-                <div class="row">
-                    <img class="col" src="ph.png" alt="contact">
-                    <form class="col" action="https://formsubmit.co/mariamkarkar994349@gmail.com" method="post">
-                        <input type="text" name="name" id="Name" placeholder="Name" required="required">
-                        <input
-                            type="email"
-                            name="email"
-                            id="email"
-                            placeholder="Email"
-                            required="required">
-                        <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Message"></textarea>
-                        <button type="submit" class="btn-primary">Submit</button>
-                    </form>
-
-                </div>
+    <section id="contact">
+        <div class="container">
+            <h2 class="text-center">Contact</h2>
+            <div class="row">
+                <img class="col-md-6 col-lg-4 mb-4" src="ph.png" alt="contact">
+                <form class="col-md-6 col-lg-8" action="https://formsubmit.co/mariamkarkar994349@gmail.com" method="post">
+                    <input type="text" name="name" id="Name" class="form-control" placeholder="Name" required="required">
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Email" required="required">
+                    <textarea name="Message" id="Message" class="form-control" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
-        </section>
-     
+        </div>
+    </section>
 
-        <footer id="footer">
-            <p>&copy; 2023 All rights reserved</p>
-        </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
+    <footer id="footer" class="text-center">
+        <p>&copy; 2023 All rights reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 5000,
+                disableoninteraction: false
+            },
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev'
+            }
+        });
+    </script>
+
+</body>
 </html>
